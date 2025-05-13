@@ -21,5 +21,3 @@ class Triangle(Shape):
     def is_sqare(self) -> bool:
         g = max(self.a, self.b , self.c)
         return self.a * self.a + self.b * self.b + self.c * self.c - g*g == g*g
-
-
